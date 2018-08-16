@@ -1,0 +1,18 @@
+.footer{
+    /* border: 2px solid black; */
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    margin-top: 33%;
+    background-color: #2874f0;
+    bottom: 0%;
+}
+
+#checkout{
+    border: 1px solid black;
+    height: 50%;
+    width: 10%;
+    position: absolute;
+    margin-left: 85%;
+    /* margin-top: 33%; */
+}
