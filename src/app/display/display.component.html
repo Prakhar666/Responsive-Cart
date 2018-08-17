@@ -1,3 +1,28 @@
-<p>
-  display works!
-</p>
+<div class="outer">
+  <div *ngFor= "let item of showItem" class="form-control">
+    
+      <div class="name">
+        <span>{{item.product}}</span>
+      </div>
+      <div class="cost">
+        <span>
+          <b>Price :</b> {{item.price}}</span>
+      </div>
+      <div class="add">
+        <button class="btn btn-primary" (click)="add(item)">Add</button>
+      </div>
+  </div>
+
+<div class="form-control">
+  <div class=" form-inline">
+    <!-- <div class="name1">
+      <button class="btn btn-default" (click)="checkout()">Check-Out</button>
+    </div> -->
+    <div class="add1">
+      <b>Quantity </b> {{cart.length}}
+
+    </div>
+  </div>
+</div>
+
+</div>

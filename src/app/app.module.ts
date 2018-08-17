@@ -6,6 +6,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { DisplayComponent } from './display/display.component';
+import { Alldata } from './alldata';
 
 
 
@@ -42,7 +43,7 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [Alldata],
   bootstrap: [AppComponent],
   exports: [ RouterModule ]
 })
